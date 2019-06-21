@@ -1,0 +1,18 @@
+server:
+  port: '@project.port@'
+
+
+
+# rabbitmq配置
+spring: 
+  rabbitmq:
+    host: 192.168.14.116
+    port: 5672
+    username: root
+    password: 123456
+  
+
+logging:
+  level: 
+    com.boande: INFO
+  file: '@project.log@mq.log'
